@@ -8,4 +8,4 @@ Also dealing with Life cycle in Android
 
 ### Layout images:
 
-![layout](images/contact.png)
+![layout](./images/contact.png)
