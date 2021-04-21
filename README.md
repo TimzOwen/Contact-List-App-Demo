@@ -8,4 +8,17 @@ Also dealing with Life cycle in Android
 
 ### Layout images:
 
-![layout](./images/contact.png)
+__General List layout__:
+
+![](./images/listview.PNG)
+
+
+__List view __:
+
+  Listview layout                 |  Layout with images 
+:--------------------------------:|:-------------------------:
+![](./images/Layout_imagess.PNG)  |  ![](./images/layout_no_images.PNG)
+
+__Layout without images__:
+
+![](./images/contact.png)
