@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contact List App</string>
+    <string name="family">Family</string>
+    <string name="profession">Profession</string>
+    <string name="nicknames">NickNames</string>
+    <string name="message">Message</string>
+    <string name="mummy">Mummy</string>
+    <string name="_0722_000_000">0722 000 000</string>
+</resources>

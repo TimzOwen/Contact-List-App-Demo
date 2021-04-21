@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_family"
+       style="@style/layout_main"
+        android:text="@string/family"
+        android:background="@color/family_bg"
+        />
+    <TextView
+        android:id="@+id/tv_proff"
+        style="@style/layout_main"
+        android:text="@string/profession"
+        android:background="@color/prof_bg"
+        />
+    <TextView
+        android:id="@+id/tv_nickNames"
+        style="@style/layout_main"
+        android:text="@string/nicknames"
+        android:background="@color/nick_bg"
+        />
+    <TextView
+        android:id="@+id/tv_message"
+        style="@style/layout_main"
+        android:text="@string/message"
+        android:background="@color/message_bg"
+        />
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
