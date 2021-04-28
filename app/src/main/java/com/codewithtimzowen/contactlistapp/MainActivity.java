@@ -23,5 +23,6 @@ public class MainActivity extends AppCompatActivity {
         tvMessage.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), MessageActivity.class)));
         tvNicknames.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), NickNamesActivity.class)));
         tvFamily.setOnClickListener(v -> startActivity(new Intent(this, FamilyActivity.class)));
+        tvProff.setOnClickListener(v -> startActivity(new Intent(this,ProffesionsActivity.class)));
     }
 }

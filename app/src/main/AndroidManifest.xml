@@ -9,17 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ContactListApp">
-        <activity android:name=".MessageActivity"></activity>
-        <activity android:name=".NickNamesActivity" />
-        <activity android:name=".ProffesionsActivity" />
-        <activity android:name=".FamilyActivity" />
+        <activity android:name=".MessageActivity"
+            android:label="Message"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity android:name=".NickNamesActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="NickName"/>
+        <activity android:name=".ProffesionsActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="Profession"/>
+        <activity android:name=".FamilyActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="Family"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
+
